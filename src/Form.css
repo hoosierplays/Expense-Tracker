@@ -1,0 +1,52 @@
+.form-label {
+  font-size: 21px;
+}
+
+.submit {
+  background-color: #1DA1F2;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.submit:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 0.2);
+}
+
+.main-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 15px;
+}
+
+.form-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: gray;
+  box-shadow: 20px 20px 10px rgb(0 0 0 / 0.2);
+  width: 350px;
+  height: 300px;
+  margin-left: 1%;
+}
+
+.form-element {
+  margin-top: 10px;
+}
+
+.form-title {
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
